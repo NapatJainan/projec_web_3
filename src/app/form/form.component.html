@@ -1,0 +1,14 @@
+<form [formGroup] ="formGroup"(ngSubmit)="Onsubmit(formGroup)">
+  <div>
+    <input
+    type="text" formControlName="firstName"
+    placeholder= "first name">
+  </div>
+  <div>
+    <input
+      type="text" formControlName="lastName"
+      placeholder= "last name">
+  </div>
+  <button>Submit</button>
+
+</form>
